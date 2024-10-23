@@ -8,7 +8,9 @@ import Contacts from "./pages/Contacts";
 
 function App() {
   return (
-    <BrowserRouter basename="/se">
+    <BrowserRouter
+    // basename="/se"
+    >
       <Layout />
       <Routes>
         <Route index element={<Home />} />

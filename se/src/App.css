@@ -106,7 +106,7 @@ nav {
 .burger-menu {
   display: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .email__text,
   .email__copied,
   .email__img {
@@ -116,7 +116,7 @@ nav {
     width: 86px;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
   nav {
     display: none;
   }
